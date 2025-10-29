@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.idea
+
+julian/
+
+db/*.db
+!db/.gitkeep
+
+papers/*.pdf
+!papers/.gitkeep
+
+src/prompt/power_system_protection/*
+!src/prompt/power_system_protection/.gitkeep
+
+src/prompt/water_demand_forecasting/*
+!src/prompt/water_demand_forecasting/.gitkeep
+
+# Environment variables
+.env
+scratch.py
