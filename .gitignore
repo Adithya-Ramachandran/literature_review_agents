@@ -4,17 +4,9 @@ __pycache__/
 
 julian/
 
-db/*.db
-!db/.gitkeep
 
-papers/*.pdf
-!papers/.gitkeep
-
-src/prompt/power_system_protection/*
-!src/prompt/power_system_protection/.gitkeep
-
-src/prompt/water_demand_forecasting/*
-!src/prompt/water_demand_forecasting/.gitkeep
+src/prompts/power_system_protection
+src/prompts/water_demand_forecasting
 
 # Environment variables
 .env
