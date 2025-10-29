@@ -4,6 +4,9 @@ __pycache__/
 
 julian/
 
+src/prompts/*/
+!src/prompts/sample/
+
 # Environment variables
 .env
 scratch.py
